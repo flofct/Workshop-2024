@@ -1,0 +1,95 @@
+body {
+    font-family: 'Roboto', sans-serif; /* Police de base */
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f0f8ff; /* Couleur de fond légère */
+}
+
+header {
+    background: #0056b3; /* Bleu foncé */
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s; /* Transition pour l'effet hover */
+}
+
+nav a:hover {
+    color: #ffdd57; /* Couleur au survol */
+}
+
+h1 {
+    margin: 0;
+    font-family: 'Pacifico', cursive; /* Police artistique pour le titre */
+}
+
+section {
+    padding: 20px;
+    border-bottom: 1px solid #e0e0e0; /* Bordure légère */
+    background-color: #ffffff; /* Fond blanc pour les sections */
+    margin: 20px 10%;
+    border-radius: 8px; /* Coins arrondis */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Ombre légère */
+}
+
+h2 {
+    color: #0056b3; /* Bleu foncé pour les titres */
+}
+
+video {
+    width: 100%;
+    height: auto;
+    border-radius: 8px; /* Coins arrondis pour la vidéo */
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 5px 0;
+}
+
+button {
+    background: #007bff; /* Bleu vif */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin: 5px;
+    border-radius: 5px; /* Coins arrondis pour les boutons */
+    transition: background 0.3s; /* Transition pour l'effet hover */
+}
+
+button a {
+    color: white;
+    text-decoration: none;
+}
+
+button:hover {
+    background: #0056b3; /* Bleu foncé au survol */
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #e9ecef; /* Couleur de fond du footer */
+    margin-top: 20px;
+}
