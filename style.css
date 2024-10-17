@@ -7,8 +7,8 @@ body {
 }
 
 header {
-    background: #0056b3; /* Bleu foncé */
-    color: #fff;
+    background: #000000;
+    color: #96038f;
     padding: 20px 0;
     text-align: center;
 }
@@ -36,7 +36,8 @@ nav a:hover {
 
 h1 {
     margin: 0;
-    font-family: 'Pacifico', cursive; /* Police artistique pour le titre */
+    font-size: 75px;
+    font-family: 'Agdasima', cursive; /* Police artistique pour le titre */
 }
 
 section {
@@ -49,7 +50,7 @@ section {
 }
 
 h2 {
-    color: #0056b3; /* Bleu foncé pour les titres */
+    color: #000000; /* Bleu foncé pour les titres */
 }
 
 video {
@@ -68,7 +69,7 @@ ul li {
 }
 
 button {
-    background: #007bff; /* Bleu vif */
+    background: #000000; /* Bleu vif */
     color: white;
     border: none;
     padding: 10px 20px;
@@ -84,7 +85,7 @@ button a {
 }
 
 button:hover {
-    background: #0056b3; /* Bleu foncé au survol */
+    background: #96038f; /* Bleu foncé au survol */
 }
 
 footer {
@@ -93,3 +94,4 @@ footer {
     background: #e9ecef; /* Couleur de fond du footer */
     margin-top: 20px;
 }
+
