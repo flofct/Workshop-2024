@@ -4,18 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Agdasima&display=swap" rel="stylesheet">
     <title>Mute Your Words - Espace de témoignages</title>
 </head>
 <body>
     <header>
-        <h1>Mute Your Words</h1>
+        <h1><img src="images/logo-removebg-preview.png" alt=""></h1>
         <nav>
             <ul>
                 <li><a href="index.html">Démo</a></li>
-                <li><a href="rapports.html">Rapports d'utilisation</a></li>
+                <li><a href="rapports.html">Statistiques d'utilisation</a></li>
                 <li><a href="temoignages.html">Espace de témoignages</a></li>
                 <li><a href="accessibilite.html">Accessibilité et confidentialité</a></li>
                 <li><a href="call_to_action.html">Call to Action</a></li>
@@ -27,8 +24,26 @@
         <h2>Espace de témoignages</h2>
         <h3>Partage d'expérience</h3>
         <p>Section pour que les utilisateurs partagent leurs expériences.</p>
-        <h3>Histoire inspirante</h3>
-        <p>Récit de la création de "Mute Your Words" avec des exemples concrets.</p>
+
+        <form id="testimonyForm" onsubmit="return showConfirmation()">
+            <h3>Partager votre témoignage anonymement</h3>
+            <label for="testimony">Votre témoignage :</label><br>
+            <textarea id="testimony" name="testimony" rows="5" cols="50" placeholder="Écrivez votre témoignage ici..." required></textarea><br><br>
+            <button type="submit">Envoyer</button>
+        </form>
+        
+        <p id="confirmationMessage" style="display:none; color: green;">Merci pour votre témoignage !</p>
+        
+        <script>
+            function showConfirmation() {
+                // Cacher le formulaire
+                document.getElementById('testimonyForm').style.display = 'none';
+                // Afficher le message de confirmation
+                document.getElementById('confirmationMessage').style.display = 'block';
+                return false; // Empêche le formulaire de soumettre réellement
+            }
+        </script>
+        
     </section>
 
     <footer>

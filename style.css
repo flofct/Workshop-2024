@@ -7,8 +7,7 @@ body {
 }
 
 header {
-    background: #000000;
-    color: #96038f;
+    background: #B2F2BB;
     padding: 20px 0;
     text-align: center;
 }
@@ -31,13 +30,13 @@ nav a {
 }
 
 nav a:hover {
-    color: #ffdd57; /* Couleur au survol */
+    color: #000000; /* Couleur au survol */
 }
 
-h1 {
+h1 img{
     margin: 0;
-    font-size: 75px;
-    font-family: 'Agdasima', cursive; /* Police artistique pour le titre */
+    width: 250px;
+    height: auto;
 }
 
 section {
@@ -85,7 +84,7 @@ button a {
 }
 
 button:hover {
-    background: #96038f; /* Bleu foncé au survol */
+    background: #B2F2BB; /* Bleu foncé au survol */
 }
 
 footer {
@@ -95,3 +94,11 @@ footer {
     margin-top: 20px;
 }
 
+#rapports-utilisation {
+    text-align: left; /* Le texte reste aligné à gauche */
+}
+
+.centered-image {
+    display: block; /* Permet de centrer l'image */
+    margin: 0 auto; /* Centre l'image horizontalement */
+}
